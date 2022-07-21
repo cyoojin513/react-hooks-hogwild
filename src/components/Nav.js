@@ -1,7 +1,10 @@
 import React from "react";
 import piggy from "../assets/porco.png";
 
-const Nav = () => {
+const Nav = (greasedInNav) => {
+	// const [greased, setGreased] = useState(true)
+
+
 	return (
 		<div className="navWrapper">
 			<span className="headerText">HogWild</span>
